@@ -472,7 +472,7 @@ img {
 
     .main {
         margin-bottom: 20px;
-        padding-bottom: 20px;
+        padding: 20px 10px 20px 10px; 
     }
 
     #subBackground1 {
