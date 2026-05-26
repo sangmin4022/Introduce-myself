@@ -499,6 +499,9 @@ img {
         height: 250px;
         margin-top: 20px;
     }
+    #myFavoriteArchive p {
+        font-size: 14px;
+    }
 
     #playlist {
         font-size: 10px;
