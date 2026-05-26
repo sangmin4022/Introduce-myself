@@ -499,9 +499,6 @@ img {
         height: 250px;
         margin-top: 20px;
     }
-    #myFavoriteArchive p {
-        font-size: 8px;
-    }
 
     #playlist {
         font-size: 10px;
@@ -510,7 +507,7 @@ img {
     }
 
     .infobox {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     #subBackground3 {
