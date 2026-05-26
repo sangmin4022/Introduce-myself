@@ -530,7 +530,7 @@ img {
 
     /*------------------------2page-------------------------*/
     #musicPage {
-        padding: 10px;
+        padding: 5px;
     }
 
     #musicHeader {
@@ -612,7 +612,7 @@ img {
     }
 
     #SongAndArtist {
-        width: 33%;
+        width: 35%;
         height: 50px;
         line-height: 50px;
     }
