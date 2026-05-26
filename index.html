@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user, initial-scale=1">
+    <title>저를 소개합니다.</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#introduction').click(function () {
+
+                $('#musicPage').removeClass('active').addClass('none');
+                $('#summaryPage').removeClass('active').addClass('none');
+                $('#introductionPage').removeClass('none').addClass('active');
+
+            });
+            $('#music').click(function () {
+
+                $('#introductionPage').removeClass('active').addClass('none');
+                $('#summaryPage').removeClass('active').addClass('none');
+                $('#musicPage').removeClass('none').addClass('active');
+
+            });
+            $('#summary').click(function () {
+
+                $('#introductionPage').removeClass('active').addClass('none');
+                $('#musicPage').removeClass('active').addClass('none');
+                $('#summaryPage').removeClass('none').addClass('active');
+
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="brand">Jeong Sang Min</div>
+        <div id="summary" class="button">Summary</div>
+        <div id="music" class="button">Music</div>
+        <div id="introduction" class="button">Introduction</div>
+    </div>
+
+    <div class="main">
+        <div id="introductionPage" class="active">
+            <div id="subBackground1">
+                <img src="./images/myface.jpg.jpg" alt="My Face">
+                <div class="info">
+                    <p><b>Name</b>: 정 상 민 (Jeong Sang Min)</p><br>
+                    <p><b>Age</b>: 23</p><br>
+                    <p><b>Hobby</b>: 음악 감상, 독서, 영화 관람</p><br>
+                    <p><b>Study</b>: Computer Engineering & System Design</p><br>
+                    <p><b>Mind</b>: 꾸준함 속에서 나만의 궤적을 만드는 사람</p><br>
+                </div>
+                <div class="infoPlus">
+                    <p>"Born in Seoul in 20xx, I grew up as an active and cheerful child just like any other.
+                        Moving to Gyeonggi-do in 2015 brought a new neighborhood and new friends, teaching me a fresh
+                        perspective on life.
+                        After spending my middle school years rather carefree, entering high school sparked a turning
+                        point where I found my dream of becoming a programmer.
+                        Growing steadily through adolescence, I eventually stepped into adulthood in 202x and enrolled
+                        in the Department of Computer Engineering
+                        at Kangwon National University, a provincial national university close to my home. After a
+                        hectic freshman year,
+                        I fulfilled my military service. It has already been nine months since my discharge,
+                        and I am currently navigating my sophomore year, busy with assignments."</p>
+                </div>
+            </div>
+
+            <div id="subBackground2">
+                <div id="myFavoriteArchive" class="infobox">My Favorite Archive
+                    <p><b>Language</b>: C Programming Language, Java Programming Language, HTML/CSS/JavaScript</p>
+                    <br><br>
+                    <p>"I first started learning C in my freshman year of high school. To be honest, it all began as a
+                        bit offun. Back then, the elective courses for our language domain included Japanese, Chinese,
+                        Spanish, and C language. I simply chose C for the fun of it, but that choice completely
+                        transformed my life. C language became a subject that gave me immense confidence. While I wasn't
+                        exceptionally better than others in math, English, or Korean, C language was different. That’s
+                        how I fell in its charm, and I continued to choose C language for my language domain throughout
+                        all three years of high school. Java was something I encountered for the first time upon
+                        entering university. Since I had already mastered C, Java felt like just a slightly different
+                        version of it. As a result, I was able to master Java without any major difficulties. Lastly,
+                        HTML/CSS is a set of languages I taught myself to prepare for a competition Since it was the
+                        very first language I learned completely on my own, it holds a very special value for me."</p>
+                </div>
+                <div id="interests" class="infobox">Interests
+                    <br><br>
+                    <p><b>1. Data & Structure</b>: Ever since I first encountered C in high school,I have been
+                        fascinated by organizing data efficiently.I find great joy and excitement in structuring complex
+                        problems into clean, logical code to manage data.</p><br>
+                    <p><b>2. AI & Local Life</b>: After mastering Java in college, I opened my eyes to technological
+                        scalability. Rather than just pursuing grand tech, I want to create human-centered AI services
+                        that solve everyday inconveniences in our local community.</p><br>
+                    <p><b>3. Cyber Security</b>: Much like self-studying HTML/CSS for a competition, security sparks my
+                        passion for endless exploration. I want to build a strong shield that safely protects the
+                        valuable data and logical structures I carefully create from external threats.</p><br>
+                </div>
+                <div id="tastePicks" class="infobox">Taste Picks
+                    <br><br>
+                    <b>My playlist picks for today</b>
+                    <br><br>
+                    <p>
+                    <div id="playlist">#Lucky_Girl_Syndrome(by_ILLIT)</div>
+                    </p>
+                    <p>
+                    <div id="playlist">#Nerdy_Love(by_pH1)</div>
+                    </p>
+                    <p>
+                    <div id="playlist">#Chance(by_HAAN_&_Chan)</div>
+                    </p>
+                    <p>
+                    <div id="playlist">#CrossWalk(by_김시원)</div>
+                    </p>
+                    <p>
+                    <div id="playlist">#Blue_heart(by_윤마치)</div>
+                    </p>
+                    <p>
+                    <div id="playlist">#I_adore_you(by_chan)</div>
+                    </p>
+                    <p>
+                    <div id="playlist">#Express_moon(by_조유리)</div>
+                    </p>
+                </div>
+            </div>
+
+            <div id="subBackground3">
+                <P><b>About me</b>
+                    <br><br>
+                    "This page is not just to fill the remaining space on my website. I grew up in a
+                    relatively poor household during my childhood. However, thanks to my parents, I was completely
+                    unaware of our situation back then. It wasn't until I reached the 5th grade of elementary school,
+                    when I moved to a new neighborhood and spent more time alone as I grew apart from my old friends,
+                    that I began to understand. Up to that point, I had lived quite comfortably. However, as I entered
+                    middle school, our financial situation gradually worsened, and I found myself becoming someone
+                    obsessed with money.
+                    <br><br>
+
+                    When I started high school, I chose C language as an elective course for fun. Compared to other
+                    subjects, it was relatively easy for me to follow, and I earned good grades. I was spending my days
+                    without any particular dream or meaning until my second year, when my computer teacher told us, 'The
+                    demand for programmers will grow significantly, and it is a profession with a high starting salary.'
+                    This sparked a sense of excitement in me. From that moment on, I developed a dream and a desire to
+                    go to university. I studied hard, aiming for a national university in Seoul, but my poor grades from
+                    freshman year held me back. Consequently, I changed my target and came to Kangwon National
+                    University.
+                    <br><br>
+
+                    I have no regrets about this choice. It is a tuition-affordable national university close to my
+                    home, and some of my close friends came here with me. The campus was larger than I expected, and my
+                    first campus life was truly thrilling. But that time flew by, and before I knew it, it was time to
+                    join the military. I enlisted in March, after enjoying my time to the fullest. Honestly, military
+                    life was manageable. Unlike what is portrayed in the media, things had changed a lot. Generally,
+                    physical abuse, verbal abuse, and arbitrary commands from seniors to juniors were prohibited.
+                    <br><br>
+
+                    After 18 months of what people call 'valuable time' passed, I was finally discharged. At first, it
+                    felt surreal. However, the joy was short-lived as I became desperate to find a part-time job to save
+                    money for living on my own. Time passed, and I finally started living independently, becoming a true
+                    adult. It was a different kind of thrill compared to the day I was discharged. After finishing what
+                    many consider a 'tough' military service, I thought school life would be easy—but I was wrong. The
+                    packed class schedules, daily assignments for every subject, and the stressful exam periods... I
+                    never thought I would actually miss the military.
+                    <br><br>
+
+                    Nevertheless, I know I will overcome these challenges, one step at a time. I believe that is my
+                    greatest strength: being able to finish everything, one by one, no matter how much is on my plate. I
+                    know there will be many more trials ahead, but I will not be discouraged. I will keep moving
+                    forward."
+                </P>
+            </div>
+        </div>
+
+        <div id="musicPage" class="none">
+            <div id="musicHeader">
+                <div id="imgHeaderContainer"><img id="imgHeader" src="./images/title.jpg"></div>
+                <div id="textHeaderContainer">
+                    <h1 id="musicTitle">노래</h1>
+                    <div id="user">정상민</div>
+                    <button id="playButton">재생</button>
+                </div>
+            </div>
+
+            <div id="musicInfo">
+                <div id="song">Song</div>
+                <div id="artist">| Artist</div>
+                <div id="album">| Album</div>
+                <div id="time">| Time</div>
+            </div>
+            <hr>
+
+            <div id="musicContent">
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply1.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">Dear Teddy Bear</div>
+                        <div id="musicArtist">JISOKURY</div>
+                    </div>
+                    <div id="musicAlbum">Dear Teddy Bear - Single</div>
+                    <div id="musicTime">3:37</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply2.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">La Danse De La Joie</div>
+                        <div id="musicArtist">스텔라 장</div>
+                    </div>
+                    <div id="musicAlbum">영화 대도시의 사랑법 - Single</div>
+                    <div id="musicTime">2:27</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply3.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">보물찾기</div>
+                        <div id="musicArtist">김뜻돌</div>
+                    </div>
+                    <div id="musicAlbum">꿈에서 걸려온 전화</div>
+                    <div id="musicTime">3:03</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply4.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">STAGEFRIGHT</div>
+                        <div id="musicArtist">CODY JON</div>
+                    </div>
+                    <div id="musicAlbum">united shoes</div>
+                    <div id="musicTime">3:02</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply5.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">노스탤지어</div>
+                        <div id="musicArtist">윤마치</div>
+                    </div>
+                    <div id="musicAlbum">The Earth - EP</div>
+                    <div id="musicTime">3:30</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply6.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">소문의 낙원</div>
+                        <div id="musicArtist">악뮤</div>
+                    </div>
+                    <div id="musicAlbum">개화</div>
+                    <div id="musicTime">3:38</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply7.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">차가워</div>
+                        <div id="musicArtist">Chan</div>
+                    </div>
+                    <div id="musicAlbum">차가워 - Single</div>
+                    <div id="musicTime">3:33</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply8.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">Rose</div>
+                        <div id="musicArtist">도경수</div>
+                    </div>
+                    <div id="musicAlbum">The 1st Mini Album</div>
+                    <div id="musicTime">2:34</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply9.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">미워</div>
+                        <div id="musicArtist">Crush</div>
+                    </div>
+                    <div id="musicAlbum">wondergo</div>
+                    <div id="musicTime">2:55</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply10.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">BIG BIRD</div>
+                        <div id="musicArtist">오존 & 카더가든</div>
+                    </div>
+                    <div id="musicAlbum">TWO - EP</div>
+                    <div id="musicTime">2:32</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply11.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">Counting Stars</div>
+                        <div id="musicArtist">OneRepublic</div>
+                    </div>
+                    <div id="musicAlbum">Native</div>
+                    <div id="musicTime">4:17</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply12.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">누군가 필요해</div>
+                        <div id="musicArtist">데이식스</div>
+                    </div>
+                    <div id="musicAlbum">Every DAY6 Octorber - single</div>
+                    <div id="musicTime">3:39</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply13.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">아크라포빅</div>
+                        <div id="musicArtist">하모</div>
+                    </div>
+                    <div id="musicAlbum">아크라포빅 - Single</div>
+                    <div id="musicTime">2:16</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply14.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">Ready, Get Set, Go!</div>
+                        <div id="musicArtist">페퍼톤스</div>
+                    </div>
+                    <div id="musicAlbum">Colorful Express</div>
+                    <div id="musicTime">5:06</div>
+                </div>
+                <hr>
+                <div id="musicContainer">
+                    <div id="musicImgContainer"><img id="musicImg" src="./images/ply15.jpg"></div>
+                    <div id="SongAndArtist">
+                        <div id="musicSong">Pluto</div>
+                        <div id="musicArtist">Waizmin</div>
+                    </div>
+                    <div id="musicAlbum">Pluto - Single</div>
+                    <div id="musicTime">3:26</div>
+                </div>
+                <hr>
+            </div>
+
+        </div>
+
+        <div id="summaryPage" class="none">
+            <h1>Reflection on the Assignment</h1>
+            <h2>It started as a light task, but it gradually became more challenging and profound as I dove deeper into
+                the process.</h2>
+            <br><br><br>
+            <h3>1. Introduction</h3><br>
+
+            <p style="padding-left: 20px;"> <b>I wasn't entirely</b> sure about the scope at first, and
+                I constantly felt
+                that
+                something was missing.<br>
+                This led to the design of the first page, where I added various elements and features.</p><br>
+
+            <p style="padding-left: 20px;"><b>Despite</b> the professor's detailed explanations in
+                class,
+                <span style="color: red; font-weight: bold;">I struggled to recall</span>
+                certain specifics, such as the target mobile aspect ratio for responsive web design.
+            </p>
+            <p style="padding-left: 20px;">This led me to implement "max-width: 1320" as a solution to
+                prevent
+                elements from overlapping when the box size decreases.</p>
+            <p style="padding-left: 20px;">I suspect the code became a bit messy because of this, but
+                it was a necessary fix.</p><br>
+
+            <p style="padding-left: 20px;"><b>As for the self-introduction</b>, I decided to write it
+                in English—partly to be honest about my journey, and perhaps, a little bit to ensure it stays concise.
+            </p>
+            <p style="padding-left: 20px;">I wanted to avoid relying
+                on AI as much as possible, using it only to fill the space with my own genuine thoughts.</p><br>
+
+            <p style="color: blue; font-weight: bold; padding-left: 20px;">Yes, that is a real photo of
+                me.</p>
+            <br><br><br>
+
+            <h3>2. MUSIC</h3><br>
+
+            <p style="padding-left: 20px;"><b>The inspiration</b> for this page was quite simple. </p>
+            <p style="padding-left: 20px;">Even though the professor gave us creative freedom, I was
+                initially stuck, so I decided to model it after Apple Music, an app I use daily. </p>
+            <p style="padding-left: 20px; color: yegreen;">I felt its minimalist aesthetic aligned
+                perfectly with my
+                website’s vibe. </p>
+            <p style="padding-left: 20px;">I am well aware that a music playlist on a personal
+                introduction site might seem random. </p>
+            <p style="padding-left: 20px;">I am truly regretful that I couldn't implement advanced
+                features like functional play buttons or the active playback bar due to time constraints and my current
+                technical limitations. </p>
+            <br>
+            <p style="color:blue; font-weight: bold; padding-left: 20px;">I hope you enjoy the effort I
+                put into it!</p>
+            <br><br><br>
+
+            <h3>3. Summary</h3><br>
+
+            <p style="padding-left: 20px; font-weight: bold; color: red;">
+                I’ll let you in on a secret: this page was originally intended to be a fashion shopping mall layout!</p>
+            <br>
+
+            <p style="padding-left: 20px;"><b>After dedicating</b> so much time and effort to the music
+                page, this was a much-needed "gift" to myself for my next assignment.</p>
+            <p style="padding-left: 20px;">Although I changed the direction at the last minute, I
+                believe it turned out quite well.</p>
+            <p style="padding-left: 20px;">It was a good exercise in designing a content-rich page
+                with basic text.</p>
+            <br>
+            <p style="padding-left: 20px;"><b>I tried to build</b> everything from scratch,
+                occasionally using AI only to look up specific syntax.</p>
+            <p style="padding-left: 20px;">AI was incredibly helpful for finding the perfect color
+                combinations.</p>
+            <br>
+            <p style="padding-left: 20px;"><b>While I wanted to fill</b> this page with impressive
+                achievements and professional skills, <span style="color: blueviolet;">I realize I still have a long way
+                    to go.</span></p>
+            <p style="padding-left: 20px; font-weight: bold; color:navy">Moving forward, I am
+                determined to fill this space with
+                solid experience, unique strengths, and a robust portfolio.</p>
+            <br><br>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        Copyright @ 2026. SangMin Jeong (jeongsangmin (at) kangwon.ac.kr) All rights reserved.
+    </footer>
+</body>
+
+</html>
